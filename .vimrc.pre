@@ -1,0 +1,2 @@
+let mapleader = ","
+let g:gist_private = 1

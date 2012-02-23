@@ -1,5 +1,11 @@
 color railscasts
 
 if has("gui_running")
-    set guioptions=egmrt " remove toolbar
+
+    " remove toolbar
+    set guioptions=egmrt 
+
+    " Janus binds command-shift-f to :Ack
+    "   this clashes with Full Screen Mode
+    macmenu Window.Toggle\ Full\ Screen\ Mode  key=<nop>
 endif

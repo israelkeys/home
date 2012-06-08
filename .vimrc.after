@@ -1,1 +1,6 @@
 color desert
+
+" mappings for rails
+nmap <leader>rv :Rview<CR>
+nmap <leader>rm :Rmodel<CR>
+nmap <leader>rc :Rcontroller<CR>

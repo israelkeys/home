@@ -38,9 +38,4 @@ export PATH=$PATH:$HOME/bin
 
 [[ -s "/Users/israelkeys/.rvm/scripts/rvm" ]] && source "/Users/israelkeys/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-# AWS
-# brew install ec2-api-tools
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk-*.pem | /usr/bin/head -1)"
-export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
-export EC2_HOME="/usr/local/Library/LinkedKegs/ec2-api-tools/jars"
+export PATH=/usr/local/bin:$PATH

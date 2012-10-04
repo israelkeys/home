@@ -1,5 +1,8 @@
 color desert
 
+" ctags with bundler
+set tags+=gems.tags
+
 " mappings for rails
 nmap <leader>rv :Rview<CR>
 nmap <leader>rm :Rmodel<CR>

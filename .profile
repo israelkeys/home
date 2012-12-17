@@ -39,3 +39,6 @@ export PATH=$PATH:$HOME/bin
 [[ -s "/Users/israelkeys/.rvm/scripts/rvm" ]] && source "/Users/israelkeys/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export PATH=/usr/local/bin:$PATH
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

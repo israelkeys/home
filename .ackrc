@@ -4,6 +4,8 @@ html=.html.erb,.html.haml,.haml
 css=.sass,.less,.scss,.scss.erb
 --type-add
 js=.coffee,.coffee.erb
+--type-add
+ruby=.jbuilder
 --type-set
 ignorables=.log,.tmp,.pdf
 --ignore-dir=vendor

@@ -1,4 +1,6 @@
-color desert
+" color desert
+" color molokai
+color railscasts
 
 " ctags with bundler
 set tags+=gems.tags
@@ -7,3 +9,17 @@ set tags+=gems.tags
 nmap <leader>rv :Rview<CR>
 nmap <leader>rm :Rmodel<CR>
 nmap <leader>rc :Rcontroller<CR>
+
+"
+" NERDTree
+"
+
+" find current buffer in NERDTree
+map <leader>nf :NERDTreeFind<CR>
+
+" 'refresh' nerdtree whenever the current buffer changes
+"augroup nerdtree
+"  au!
+"  au BufReadPost * :NERDTreeFind | :wincmd p
+"augroup END
+

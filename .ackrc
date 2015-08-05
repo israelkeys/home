@@ -14,3 +14,4 @@ ignorables=.log,.tmp,.pdf
 --ignore-dir=doc
 --ignore-dir=coverage
 --ignore-dir=public
+--ignore-file=is:tags
